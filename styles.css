@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+.except-head{
+	display:flex;
+}
+.header{
+	background-color:#011e29 !important;
+	color:white !important;
+	text-align:center;
+	padding:10px;
+}
+body{
+	background-color:#f5f5f5;
+}
+
+.latest-news-section{
+	background-color:white;
+	height: 150px;
+	width: 200px;
+	margin:10px;
+	padding:10px;
+	text-align:center;
+	border-radius:15px;
+	flex:3;
+}
+
+.Main-article{
+	background-color:white;
+	height: 200px;
+	width: 200px;
+	margin-top:10px;
+	padding:5px;
+	text-align:center;
+	border-radius:15px;
+	flex:4;
+}
+
+.pictorial-news-section{
+	background-color:white;
+	height: 400px;
+	width: 200px;
+	margin:10px;
+	padding:5px;
+	text-align:center;
+	border-radius:15px;
+	flex:3;
+	flex-direction:column;
+}
+
+.pictorial-news-section>img{
+	height:100px;
+	width:180px;
+	padding:5px;
+
+}
+
